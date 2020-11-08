@@ -1,5 +1,5 @@
 ![enter image description here](https://img.shields.io/badge/Author-Malh2019-red) [![CodeFactor](https://www.codefactor.io/repository/github/meganitrospeed/printers/badge)](https://www.codefactor.io/repository/github/meganitrospeed/printers) ![enter image description here](https://img.shields.io/maintenance/yes/2020)
-# Printers
+# Insular Guided Walks
 This is a simple project for the IES El Rincon where we work with HTML using the Bootstrap Framework
 
 ## 🚩 Table of Contents
