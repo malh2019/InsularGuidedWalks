@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6253a6e-a6b8-4d82-9085-818047ad3d90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/places.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ayuda.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/destinos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/formulariodeayuda.html" beforeDir="false" afterPath="$PROJECT_DIR$/contactUs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quienessomos.html" beforeDir="false" afterPath="$PROJECT_DIR$/quienessomos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservas.html" beforeDir="false" afterPath="$PROJECT_DIR$/reservas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quienessomos.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutUs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservas.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -33,9 +40,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrador\Documents\Lenguaje_de_Marcas\InsularGuidedWalks\css" />
+      <recent name="C:\Users\Administrador\Documents\Lenguaje_de_Marcas\InsularGuidedWalks" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,7 +60,9 @@
       <option name="presentableId" value="Default" />
       <updated>1604634751216</updated>
       <workItem from="1604634752458" duration="8278000" />
-      <workItem from="1604861599329" duration="16104000" />
+      <workItem from="1604861599329" duration="17685000" />
+      <workItem from="1606349448240" duration="11194000" />
+      <workItem from="1606605934408" duration="3004000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1604877155315</created>
@@ -55,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604877155315</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Actualizacion de Tablas de varios tipos">
+      <created>1604879978626</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604879978626</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,21 +86,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Actualizacion de Tablas de varios tipos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de Tablas de varios tipos" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1241" y="31" key="#HTML" timestamp="1604862675116">
+    <state x="1241" y="31" key="#HTML" timestamp="1606606063593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1241" y="31" key="#HTML/0.0.1920.1040@0.0.1920.1040" timestamp="1604862675116" />
+    <state x="1241" y="31" key="#HTML/0.0.1920.1040@0.0.1920.1040" timestamp="1606606063593" />
     <state x="1194" y="347" key="#Notifications" timestamp="1604877054142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1194" y="347" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1604877054142" />
-    <state x="1006" y="92" key="CommitChangelistDialog2" timestamp="1604877154717">
+    <state x="210" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606606185348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1006" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604877154717" />
+    <state x="210" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606606185348" />
+    <state x="1006" y="92" key="CommitChangelistDialog2" timestamp="1604879978069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1006" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604879978069" />
     <state x="1293" y="421" key="Github.ShareDialog" timestamp="1604876998468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -90,9 +118,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604877078493" />
-    <state x="1032" y="256" key="Vcs.Push.Dialog.v2" timestamp="1604877164175">
+    <state x="1032" y="256" key="Vcs.Push.Dialog.v2" timestamp="1604879980903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604877164175" />
+    <state x="1032" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604879980903" />
   </component>
 </project>
