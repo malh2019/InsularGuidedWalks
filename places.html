@@ -17,6 +17,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="./js/components/change-site.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
@@ -41,8 +42,37 @@
         </li>
     </ul>
 </nav>
+
 <a-scene>
-    <a-sky src="./img/santa_ana.jpg"></a-sky>
+    <a-assets>
+        <img id="santa_ana" src="./img/santa_ana.jpg" alt="santa_ana"/>
+        <img id="gabinete" src="./img/gabinete.jpg" alt="gabinete"/>
+        <audio id="click" src="./ogg/click.mp3" preload="auto"></audio>
+        <audio id="birds" src="./ogg/birds.mp3" preload="auto"></audio>
+        <audio id="people" src="./ogg/people.mp3" preload="auto"></audio>
+    </a-assets>
+
+    <a-camera>
+        <a-cursor raycaster="objects: .clickable"></a-cursor>
+    </a-camera>
+
+    <a-box position="-2 1.7 -3" scale="0.25 0.25 0.25" color="blue"
+    animation__position="property: rotation; to: 360 360 360; dir: alternate; dur: 5000; loop: true">
+    </a-box>
+    <a-plane color="black" position="0 1.7 -3" width="3.5" height="0.25" class="clickable"
+             change-site="img: ./img/gabinete.jpg"
+             sound="on: mouseenter; src: #click">
+        <a-text value="Gabinete Literario, Las Palmas" color="white" align="center"></a-text>
+    </a-plane>
+    <a-box position="-2 1 -3" scale="0.25 0.25 0.25" color="blue"
+           animation__position="property: rotation; to: 360 360 360; dir: alternate; dur: 5000; loop: true">
+    </a-box>
+    <a-plane color="black" position="0 1 -3" width="3.5" height="0.25" class="clickable"
+             change-site="img: ./img/santa_ana.jpg"
+             sound="on: mouseenter; src: #click">
+        <a-text value="Catedral de Santa Ana, Las Palmas" color="white" align="center"></a-text>
+    </a-plane>
+    <a-sky id="my-sky" src="#santa_ana"></a-sky>
 </a-scene>
 </body>
 </html>
