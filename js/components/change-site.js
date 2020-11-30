@@ -21,7 +21,7 @@ AFRAME.registerComponent('change-site', {
                 }
             });
 
-            var allBox = grandParentEntity.querySelectorAll("a.box");
+            var allBox = grandParentEntity.querySelectorAll("a-box");
             Object.keys(allBox).forEach(function (key) {
                 allBox[key].setAttribute("visible", "false");
             });
@@ -34,7 +34,8 @@ AFRAME.registerComponent('change-site', {
                 allAText[key].setAttribute("color", "gray");
             });
 
-            var aText = thisAPlane.querySelector()
+            var aText = thisAPlane.querySelector("a-text");
+            if (aText) aText.setAttribute("color", "white");
 
             var mySky = document.querySelector("#my-sky");
             mySky.setAttribute("src", data.img);
