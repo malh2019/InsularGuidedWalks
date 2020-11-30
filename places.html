@@ -18,6 +18,9 @@
 
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="./js/components/change-site.js"></script>
+    <script src="./js/components/toggle_sound.js"></script>
+
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
@@ -43,12 +46,18 @@
     </ul>
 </nav>
 
+<div class="button-container">
+    <button id="speaker-button">
+        <img id="speaker-img" src="./img/sound_off.jpg" alt="texture"/>
+    </button>
+</div>
+
 <a-scene>
     <a-assets>
         <img id="santa_ana" src="./img/santa_ana.jpg" alt="santa_ana"/>
         <img id="gabinete" src="./img/gabinete.jpg" alt="gabinete"/>
         <audio id="click" src="./ogg/click.mp3" preload="auto"></audio>
-        <audio id="birds" src="./ogg/birds.mp3" preload="auto"></audio>
+        <audio id="birds" src="./ogg/birds.ogg" preload="auto"></audio>
         <audio id="people" src="./ogg/people.mp3" preload="auto"></audio>
     </a-assets>
 
@@ -62,7 +71,7 @@
                    animation__position="property: rotation; to: 360 360 360; dir: alternate; dur: 5000; loop: true">
             </a-box>
             <a-plane color="black" position="1.9 0 0" width="3.5" height="0.25" class="clickable"
-                     change-site="img: ./img/gabinete.jpg"
+                     change-site="img: ./img/gabinete.jpg; sound: #people"
                      sound="on: mouseenter; src: #click">
                 <a-text value="Gabinete Literario, Las Palmas" color="gray" align="center"></a-text>
             </a-plane>
@@ -72,14 +81,16 @@
                    animation__position="property: rotation; to: 360 360 360; dir: alternate; dur: 5000; loop: true">
             </a-box>
             <a-plane color="black" position="1.9 0 0" width="3.5" height="0.25"
-                     change-site="img: ./img/santa_ana.jpg"
+                     change-site="img: ./img/santa_ana.jpg; sound: #birds"
                      sound="on: mouseenter; src: #click">
                 <a-text value="Catedral de Santa Ana, Las Palmas" color="white" align="center"></a-text>
             </a-plane>
         </a-entity>
     </a-entity>
 
-    <a-sky id="my-sky" src="#santa_ana"></a-sky>
+    <a-sky id="my-sky" src="#santa_ana"
+    sound="src: #birds; loop: true"
+    data-sounding="false"></a-sky>
 </a-scene>
 </body>
 </html>

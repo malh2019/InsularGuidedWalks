@@ -1,6 +1,8 @@
 AFRAME.registerComponent('change-site', {
     schema: {
-        img: {type: 'string'}
+        img: {type: 'string'},
+        sound: {type: 'string'},
+        zone: {type: 'string'}
     },
 
     init: function () {
@@ -39,6 +41,11 @@ AFRAME.registerComponent('change-site', {
 
             var mySky = document.querySelector("#my-sky");
             mySky.setAttribute("src", data.img);
+            mySky.setAttribute("sound", "src", data.sound);
+
+            if(mySky.getAttribute("sounding") == "true") {
+                mySky.components.sound.playSound();
+            }
         });
     }
 });

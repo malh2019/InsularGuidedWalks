@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6253a6e-a6b8-4d82-9085-818047ad3d90" name="Default Changelist" comment="" />
+    <list default="true" id="e6253a6e-a6b8-4d82-9085-818047ad3d90" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/change-site.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/change-site.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ogg/birds.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/places.html" beforeDir="false" afterPath="$PROJECT_DIR$/places.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -53,7 +59,7 @@
       <workItem from="1604861599329" duration="17685000" />
       <workItem from="1606349448240" duration="11194000" />
       <workItem from="1606605934408" duration="3004000" />
-      <workItem from="1606674828762" duration="18821000" />
+      <workItem from="1606674828762" duration="28875000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1604877155315</created>
@@ -139,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606696611034</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Actualizaciones">
+      <created>1606697049635</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606697049635</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,10 +181,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="210" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606606185348" />
-    <state x="1006" y="92" key="CommitChangelistDialog2" timestamp="1606696610483">
+    <state x="1006" y="92" key="CommitChangelistDialog2" timestamp="1606697049079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1006" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606696610483" />
+    <state x="1006" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606697049079" />
     <state x="1293" y="421" key="Github.ShareDialog" timestamp="1604876998468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -184,10 +197,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604877078493" />
-    <state x="1032" y="256" key="Vcs.Push.Dialog.v2" timestamp="1606696612577">
+    <state x="1032" y="256" key="Vcs.Push.Dialog.v2" timestamp="1606697050667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606696612577" />
+    <state x="1032" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606697050667" />
     <state x="1096" y="244" key="run.anything.popup" timestamp="1606694389997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
